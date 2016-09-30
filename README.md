@@ -1,2 +1,2 @@
 # evolution2626.github.io
-Github pages for Evolution 2626
+Website of Evolution 2626
