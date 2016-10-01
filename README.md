@@ -1,5 +1,5 @@
-# Team 1418 Website
-This repository contains the content that is served on [1418.team](http://1418.team).
+# Team 2626 Website
+This repository contains the content that is served on [evolution2626.con](http://evolution2626.com/).
 
 This website uses the Jekyll templating system and is hosted as a GitHub page out of this repository.
 
