@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Team 1418
-email: robotics1418@gmail.com
-description: A FIRST Robotics team in Falls Church, VA.
+title: Team 2626
+email: firstevolution2626@gmail.com
+description: A FIRST Robotics team in Sherbrooke, Québec, Canada.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://1418.team" # the base hostname & protocol for your site
-twitter_username: robotics1418
-github_username:  frc1418
+url: "evolution2626.com" # the base hostname & protocol for your site
+twitter_username: Evolution2626
+github_username:  Evolution2626
 
 # Build settings
 sass:
