@@ -19,9 +19,5 @@ This website uses the Jekyll templating system and is hosted as a GitHub page ou
 
 3. Navigate to `localhost:4000` to view the output of the site.
 
-## Authors
-* [Erik Boesen](https://github.com/ErikBoesen) - Code, art & design
-* [Carter Fendley](https://github.com/CarterFendley) - Code
-
 ## License
 This software is protected under the MIT license. Basically, do whatever you want as long as you give credit where credit is due and don't hold us liable for anything that happens. More information can be found in [`LICENSE`](LICENSE).
