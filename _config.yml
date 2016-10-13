@@ -23,6 +23,7 @@ github_username:  Evolution2626
 
 # These variables are used to handle different languages more easily
 # English
+#index
 enwelcome: Welcome
 enshortdesc: Evolution 2626 short description
 
@@ -30,8 +31,16 @@ endescline1: We are FRC Team Evolution 2626, proudly representing the Séminaire
 
 endescline2: Our mission is to inspire young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.
 
+#header
+enshortteamname: Evolution 2626
+enlongteamname: FRC Team 2626 - Séminaire de Sherbrooke
 
-
+enhome: Home
+enrobots: Robots
+enteampage: The Team
+enmore: More
+enoutreach: Outreach
+encontact: Contact
 
 # Build settings
 sass:
