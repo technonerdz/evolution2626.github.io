@@ -21,6 +21,18 @@ url: "evolution2626.com" # the base hostname & protocol for your site
 twitter_username: Evolution2626
 github_username:  Evolution2626
 
+# These variables are used to handle different languages more easily
+# English
+enwelcome: Welcome
+enshortdesc: Evolution 2626 short description
+
+endescline1: We are FRC Team Evolution 2626, proudly representing the Séminaire de Sherbrooke in Sherbrooke, Quebec, Canada. Every year, we participate in the famous FIRST Robotics Competition. Since our humble beginnings in 2008, we have evolved into a cooperative of dreamers and achievers. On this website, you will find information on our team, on the FIRST program and resources for other FRC teams.
+
+endescline2: Our mission is to inspire young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.
+
+
+
+
 # Build settings
 sass:
     style: compressed
