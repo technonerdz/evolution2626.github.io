@@ -6,23 +6,27 @@ stylesheets:
 - grid
 ---
 <script type="text/javascript">             
-    function setPicture() {
-        var img = document.getElementById("coffeedropdown");
-        var value = img.options[img.selectedIndex].value;
-        alert(selectedValue);
-    }
+var pictureList = [
+    "http://lorempixel.com/400/200/sports/1",
+    "http://lorempixel.com/400/200/sports/2",
+    "http://lorempixel.com/400/200/sports/3",
+    "http://lorempixel.com/400/200/sports/4",
+    "http://lorempixel.com/400/200/sports/5", ];
+
+$('#picDD').change(function () {
+    var val = parseInt($('#picDD').val());
+    $('img').attr("src",pictureList[val]);
+});
 </script>
 <article>
     <h1>The Team</h1>
-<select id="coffeedropdown" onchange="setPicture();">
-    <option value="../Images/pimms.jpg">Select a Drink</option>
-    <option value="../Images/caffe.jpg">Caffe</option>
-    <option value="../Images/caffelatte.jpg">Caffe Latte</option>
-    <option value="../Images/cappuccino.jpg">Cappuccino</option>
-    <option value="../Images/marocchino.jpg">Caffee Marrocchino</option>
-    <option value="../Images/americano.jpg">Caffe Americano</option>
-    <option value="../Images/shakerato.jpg">Caffe Shakerato</option>
-    <option value="../Images/corretto.jpg">Caffe Corretto</option>
+<img src="http://lorempixel.com/400/200/sports/1" />
+<select id="picDD">
+    <option value="1" selected>Picute 1</option>
+    <option value="2">Picute 2</option>
+    <option value="3">Picute 3</option>
+    <option value="4">Picute 4</option>
+    <option value="5">Picute 5</option>
 </select>
     <div>
         <div>
