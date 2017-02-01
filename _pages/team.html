@@ -5,8 +5,25 @@ permalink: /team
 stylesheets:
 - grid
 ---
+<script type="text/javascript">             
+    function setPicture() {
+        var img = document.getElementById("coffeedropdown");
+        var value = img.options[img.selectedIndex].value;
+        alert(selectedValue);
+    }
+</script>
 <article>
     <h1>The Team</h1>
+<select id="coffeedropdown" onchange="setPicture();">
+    <option value="../Images/pimms.jpg">Select a Drink</option>
+    <option value="../Images/caffe.jpg">Caffe</option>
+    <option value="../Images/caffelatte.jpg">Caffe Latte</option>
+    <option value="../Images/cappuccino.jpg">Cappuccino</option>
+    <option value="../Images/marocchino.jpg">Caffee Marrocchino</option>
+    <option value="../Images/americano.jpg">Caffe Americano</option>
+    <option value="../Images/shakerato.jpg">Caffe Shakerato</option>
+    <option value="../Images/corretto.jpg">Caffe Corretto</option>
+</select>
     <div>
         <div>
             <img src="/assets/img/team/placeholder.png">
